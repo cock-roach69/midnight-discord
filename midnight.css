@@ -299,42 +299,6 @@
 	color: var(--text-5);
 }
 
-/* window controls */
-.withFrame-2dL45i {
-	height: 20px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg > svg {
-	display: none;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg {
-	top: 0;
-	width: 12px;
-	height: 12px;
-	margin: 2px 12px 0px 0px;
-	border-radius: 12px;
-}
-.typeWindows-2-g3UY .winButton-3UMjdg::after {
-	content: '';
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
-}
-.typeWindows-2-g3UY .winButtonClose-3Q8ZH5::after {
-	background-color: hsl(350, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(3)::after {
-	background-color: hsl(150, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY .winButtonMinMax-3RsPUg:nth-child(4)::after {
-	background-color: hsl(50, 50%, 50%) !important;
-}
-.typeWindows-2-g3UY > div:hover::after {
-	transform: scale(1.1);
-}
-.typeWindows-2-g3UY > div:active::after {
-	transform: scale(1);
-}
-
 .theme-dark {
 	--activity-card-background: blue;
 	--android-navigation-bar-background: blue;
